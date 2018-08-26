@@ -7,8 +7,12 @@ export default class Secondary {
 
   log() {
     console.log('Hi!');
+    this.newFeat();
   }
 
+  newFeat() {
+    console.log('new thing');
+  }
   render() {
     console.log(this.Main.render());
     this.log();
