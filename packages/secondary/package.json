@@ -1,13 +1,13 @@
 {
   "name": "secondary",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "main": "^0.1.1"
+    "main": "^0.2.0"
   },
   "author": "",
   "license": "ISC"
