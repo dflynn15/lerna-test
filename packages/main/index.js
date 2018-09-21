@@ -11,6 +11,10 @@ export default class Main {
     console.log('newer feature');
   }
 
+  niceThing() {
+    console.log('nice');
+  }
+
   render() {
     console.log(this.name.toString());
   }
