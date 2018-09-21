@@ -1,6 +1,7 @@
 export default class Main {
   constuctor() {
-    this.name = 'Daniel';
+    this.name = new Symbol('Daniel');
+    this.new = 1;
   }
 
   newFeat() {
@@ -8,6 +9,6 @@ export default class Main {
   }
 
   render() {
-    console.log(this.name);
+    console.log(this.name.toString());
   }
 }
