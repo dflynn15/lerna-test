@@ -8,6 +8,10 @@ export default class Main {
     console.log('cool thing');
   }
 
+  newerFeat() {
+    console.log('newer feature');
+  }
+
   render() {
     console.log(this.name.toString());
   }
