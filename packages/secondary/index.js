@@ -13,6 +13,11 @@ export default class Secondary {
   newFeat() {
     console.log('new thing');
   }
+
+  awesomeThing() {
+    console.log('awesssoommeeee');
+  }
+
   render() {
     console.log(this.Main.render());
     this.log();
