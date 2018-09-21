@@ -1,7 +1,6 @@
 export default class Main {
   constuctor() {
     this.name = new Symbol('Daniel');
-    this.new = 1;
   }
 
   newFeat() {
